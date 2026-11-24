@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Glaze Theory | Ceramics Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@400;600;800&family=Fraunces:ital,wght@1,400;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#top">Glaze Theory</a>
+  <button class="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  <nav class="links">
+    <a href="#pieces">Pieces</a><a href="#process">Process</a><a href="#visit">Visit</a>
+  </nav>
+</header>
+
+<main id="top">
+  <section class="hero" id="hero">
+    <p class="kicker">Small-batch ceramics, fired twice, glazed once</p>
+    <h1 class="mega" aria-label="Made by hand">
+      <span class="outline" aria-hidden="true">Made<br>by hand</span>
+      <span class="fill" aria-hidden="true">Made<br>by hand</span>
+    </h1>
+    <p class="lede">Move your cursor over the title. That is what a glaze does in the kiln: it only shows its true colour once it is hot.</p>
+    <a class="btn" href="#pieces">See this season's pieces</a>
+    <div class="sun"></div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="track">
+      <span>Stoneware</span><span>Porcelain</span><span>Raku</span><span>Celadon</span><span>Matte</span><span>Crackle</span>
+      <span>Stoneware</span><span>Porcelain</span><span>Raku</span><span>Celadon</span><span>Matte</span><span>Crackle</span>
+    </div>
+  </div>
+
+  <section class="pieces" id="pieces">
+    <h2 class="reveal">This season's pieces</h2>
+    <div class="grid">
+      <article class="card reveal" data-tilt>
+        <div class="stage c1"><div class="vase v1"></div></div>
+        <h3>Tide Vase</h3><p>Hand-thrown stoneware with a pooled cobalt glaze.</p><span class="price">$68</span>
+      </article>
+      <article class="card reveal" data-tilt>
+        <div class="stage c2"><div class="vase v2"></div></div>
+        <h3>Butter Bowl</h3><p>A wide porcelain bowl with a soft satin finish.</p><span class="price">$42</span>
+      </article>
+      <article class="card reveal" data-tilt>
+        <div class="stage c3"><div class="vase v3"><i></i><i></i><i></i></div></div>
+        <h3>Stack Set</h3><p>Three nesting cups in blush, cream and ink.</p><span class="price">$54</span>
+      </article>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <h2 class="reveal">From mud to mantel</h2>
+    <ol class="steps">
+      <li class="reveal"><b>Throw</b><span>Clay is centred and pulled up on the wheel.</span></li>
+      <li class="reveal"><b>Dry</b><span>Pieces rest for a week so they never crack.</span></li>
+      <li class="reveal"><b>Glaze</b><span>Each one is dipped by hand, never sprayed.</span></li>
+      <li class="reveal"><b>Fire</b><span>A slow overnight burn locks the colour in.</span></li>
+    </ol>
+  </section>
+
+  <section class="quote reveal">
+    <p>&ldquo;The glaze pooled in the base like a small tide pool. I look at it every morning.&rdquo;</p>
+    <cite>A customer, probably</cite>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="visit-text reveal">
+      <h2>Visit the studio</h2>
+      <p>Open studio days are the first Saturday of every month. Tell us when you are coming and we will keep the kettle on.</p>
+    </div>
+    <form class="form reveal" id="form" novalidate>
+      <label>Name<input type="text" name="name" required></label>
+      <label>Email<input type="email" name="email" required></label>
+      <label>Message<textarea name="msg" rows="4" required></textarea></label>
+      <button class="btn" type="submit">Send message</button>
+      <p class="note" id="note" role="status"></p>
+    </form>
+  </section>
+</main>
+
+<footer class="foot"><span>Glaze Theory</span></footer>
+<aside class="credit" aria-label="Site credit">
+  <span class="avatar"><b>AM</b></span>
+  <span class="who"><strong>Designed &amp; built by Areeba Malik</strong><small>@areebamalik0</small></span>
+</aside>
+<script src="script.js"></script>
+</body>
+</html>
